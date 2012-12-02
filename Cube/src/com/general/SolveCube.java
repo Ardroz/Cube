@@ -1,4 +1,4 @@
-package com.general.cube;
+package com.general;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -69,7 +69,7 @@ import java.io.InputStreamReader;
           cube.f(5);
           cube.f(5);
         }
-        cube.imprimirCubo();
+        cube.printCube();
         
         if(option.equals("die")){
           die = 1;
